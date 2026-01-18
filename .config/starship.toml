@@ -1,0 +1,29 @@
+palette = 'cute'
+
+format = '''
+$path$directory$git_branch$git_status$python$lua
+$character
+'''
+
+[character]
+success_symbol = '[](bold yellow)'
+error_symbol = '[](bold)'
+vimcmd_symbol = '[](bold pink)'
+vimcmd_replace_one_symbol = '[](bold orange)'
+vimcmd_visual_symbol = '[](bold purple)'
+
+[directory]
+style = 'bold sky'
+truncation_length = 5
+
+[git_branch]
+style = 'bold purple'
+symbol = ' '
+
+[git_status]
+style = 'bold pink'
+
+[palettes.cute]
+sky = '#66ccff'
+pink = '#ffaacc'
+
