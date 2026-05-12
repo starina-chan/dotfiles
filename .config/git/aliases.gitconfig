@@ -1,0 +1,32 @@
+[alias]
+  a = add
+  b = branch
+  c = commit
+  ca = commit --amend
+  cm = commit -m
+  co = checkout
+  cob = checkout -b
+  cp = cherry-pick
+  d = diff
+  dc = diff --cached
+  f = fetch
+  i = init
+  l = log --all --decorate --oneline --graph
+  ln = log --all --decorate --oneline --graph --name-only
+  m = merge
+  p = push
+  pf = push --force-with-lease
+  r = remote
+  rv = remote -v
+  rb = rebase
+  rbi = rebase -i
+  re = reset
+  reh = reset --hard
+  res = reset --soft
+  rl = reflog
+  s = status
+  sh = show
+  st = stash
+  sub = submodule
+  sw = switch
+

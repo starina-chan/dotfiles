@@ -1,0 +1,17 @@
+[color]
+  ui = auto
+
+[core]
+  editor = lvim
+  pager = delta
+
+[delta]
+  navigate = true
+  dark = true
+  side-by-side = true
+
+[init]
+  defaultBranch = main
+
+[interactive]
+  diffFilter = delta --color-only
